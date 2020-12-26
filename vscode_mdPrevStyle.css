@@ -1,0 +1,66 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+body > p {
+    text-indent: 1em;
+}
+
+body h1:first-child {
+    margin-top: 0em;
+    background-color: rgb(32, 57, 112);
+    padding: 0.3em 0.8em;
+    border-style: none;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+    background-color: rgb(32, 57, 112);
+    padding: 0.3em 0.8em;
+    border-bottom-style: none;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    line-height: 1.2;
+    border-top-width: 10em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin: 1.5em 0.5em 0.5em;
+    font-size: 1.1em;
+    font-family: "UD Digi Kyokasho N-R";
+    position: relative;
+    left: 0px;
+    padding: 5px 10px 0px;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+blockquote p {
+    position: relative;
+    line-height: 1.5;
+}
+
+blockquote cite {
+    display: block;
+    position: relative;
+    /* bottom: 1em; */
+    /* right: 1em; */
+    z-index: 1;
+    text-align: right;
+    color: #888888;
+}
